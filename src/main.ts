@@ -7,7 +7,7 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
     <h3>Simple, traffic-based pricing</h3>
     <p class="signup">Sign-up for our 30-day trial. No credit card required.</p>
     </div>
-    <img src="pattern-circles.svg" alt="circle images"/>
+    <img src="/assests/pattern-circles.svg" alt="circle images"/>
     <div class="Card">
       <div class="Top-half">
       <div class="Card-Top">
