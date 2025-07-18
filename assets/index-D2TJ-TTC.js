@@ -5,7 +5,7 @@
     <h3>Simple, traffic-based pricing</h3>
     <p class="signup">Sign-up for our 30-day trial. No credit card required.</p>
     </div>
-    <img class="Circles" alt="circle images"/>
+    <img class="Circles"/>
     <div class="Card">
       <div class="Top-half">
       <div class="Card-Top">
