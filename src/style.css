@@ -96,7 +96,7 @@ p {
 }
 
 .mask {
-  background: url(/bg-pattern.svg);
+  background: url(/public/assests/bg-pattern.svg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
