@@ -182,7 +182,7 @@ span {
 
 .slider::-moz-range-thumb {
   border-radius: 50%;
-  background: url(/assests/icon-slider.svg);
+  background: url("/assests/icon-slider.svg");
   cursor: pointer;
   height: 40px;
   width: 40px;
@@ -475,7 +475,7 @@ li {
 
   .slider-desk::-moz-range-thumb {
     border-radius: 50%;
-    background: url(/assets/icon-slider.svg);
+    background: url("/assets/icon-slider.svg");
     cursor: pointer;
     height: 40px;
     width: 40px;
