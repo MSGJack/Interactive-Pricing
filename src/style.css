@@ -96,7 +96,7 @@ p {
 }
 
 .mask {
-  background: url(/public/assests/bg-pattern.svg);
+  background: url("/assests/bg-pattern.svg");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -283,7 +283,7 @@ ul li {
 ul li::before {
   content: "";
   position: absolute;
-  background: url(/assets/icon-check.svg);
+  background: url("/assets/icon-check.svg");
   background-size: contain;
   left: 0;
   top: 0.1rem;
