@@ -127,6 +127,7 @@ img {
   position: absolute;
   left: 46vw;
   top: 8vh;
+  background: url("/assets/pattter-circles.svg");
 }
 
 span {
@@ -432,6 +433,7 @@ li {
     left: 30vw;
     top: 8vh;
     width: 160px;
+    background: url("/assets/pattter-circles.svg");
   }
 
   input {
