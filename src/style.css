@@ -96,7 +96,7 @@ p {
 }
 
 .mask {
-  background: url(bg-pattern.svg);
+  background: url(/bg-pattern.svg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -182,7 +182,7 @@ span {
 
 .slider::-moz-range-thumb {
   border-radius: 50%;
-  background: url(icon-slider.svg);
+  background: url(/icon-slider.svg);
   cursor: pointer;
   height: 40px;
   width: 40px;
@@ -283,7 +283,7 @@ ul li {
 ul li::before {
   content: "";
   position: absolute;
-  background: url(icon-check.svg);
+  background: url(/icon-check.svg);
   background-size: contain;
   left: 0;
   top: 0.1rem;
@@ -475,7 +475,7 @@ li {
 
   .slider-desk::-moz-range-thumb {
     border-radius: 50%;
-    background: url(icon-slider.svg);
+    background: url(/icon-slider.svg);
     cursor: pointer;
     height: 40px;
     width: 40px;
