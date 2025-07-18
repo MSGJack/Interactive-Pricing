@@ -283,7 +283,7 @@ ul li {
 ul li::before {
   content: "";
   position: absolute;
-  background: url("/assets/icon-check.svg");
+  background: url("/assests/icon-check.svg");
   background-size: contain;
   left: 0;
   top: 0.1rem;
@@ -475,7 +475,7 @@ li {
 
   .slider-desk::-moz-range-thumb {
     border-radius: 50%;
-    background: url("/assets/icon-slider.svg");
+    background: url("/assests/icon-slider.svg");
     cursor: pointer;
     height: 40px;
     width: 40px;
