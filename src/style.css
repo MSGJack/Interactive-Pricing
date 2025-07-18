@@ -127,7 +127,7 @@ img {
   position: absolute;
   left: 46vw;
   top: 8vh;
-  background: url("/assets/pattten-circles.svg");
+  background: url("/assets/pattern-circles.svg");
 }
 
 span {
@@ -433,7 +433,7 @@ li {
     left: 30vw;
     top: 8vh;
     width: 160px;
-    background: url("/assets/pattten-circles.svg");
+    background: url("/assets/pattern-circles.svg");
   }
 
   input {
