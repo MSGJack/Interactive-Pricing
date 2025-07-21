@@ -5,7 +5,7 @@
     <h3>Simple, traffic-based pricing</h3>
     <p class="signup">Sign-up for our 30-day trial. No credit card required.</p>
     </div>
-    <img class="Circles"/>
+    <div class="Circles"></div>
     <div class="Card">
       <div class="Top-half">
       <div class="Card-Top">
@@ -44,8 +44,8 @@
     </div>
     </div>
   </div>
-`;const v=[{views:"10K",price:8},{views:"50K",price:12},{views:"100K",price:16},{views:"500K",price:24},{views:"1M",price:36}],n=document.getElementById("data-input"),o=document.getElementById("mobile-data-input"),m=document.getElementById("output-value"),c=document.getElementById("view-value");function d(i){const s=+i.value,r=+i.min,a=+i.max;console.log(s,r,a);const e=(s-r)/(a-r)*100;i.style.background=`linear-gradient(to right,
+`;const v=[{views:"10K",price:8},{views:"50K",price:12},{views:"100K",price:16},{views:"500K",price:24},{views:"1M",price:36}],n=document.getElementById("data-input"),d=document.getElementById("mobile-data-input"),m=document.getElementById("output-value"),c=document.getElementById("view-value");function o(i){const s=+i.value,r=+i.min,a=+i.max;console.log(s,r,a);const e=(s-r)/(a-r)*100;i.style.background=`linear-gradient(to right,
     hsl(174, 77%, 80%) 0%,
     hsl(174, 86%, 45%) ${e}%,
     hsl(224, 65%, 95%) ${e}%,
-    hsl(224, 65%, 95%) 100%)`;const{price:t,views:l}=v[s];c&&(c.textContent=`${l} PAGEVIEWS `),m.textContent=`$${t}.00 `}function u(){return window.innerWidth>=600?n:o}function p(i){n.value=i,o.value=i,d(u())}d(u());n.addEventListener("input",()=>{d(n)});n.addEventListener("input",()=>p(n.value));o.addEventListener("input",()=>p(o.value));
+    hsl(224, 65%, 95%) 100%)`;const{price:t,views:l}=v[s];c&&(c.textContent=`${l} PAGEVIEWS `),m.textContent=`$${t}.00 `}function u(){return window.innerWidth>=600?n:d}function p(i){n.value=i,d.value=i,o(u())}o(u());n.addEventListener("input",()=>{o(n)});n.addEventListener("input",()=>p(n.value));d.addEventListener("input",()=>p(d.value));
